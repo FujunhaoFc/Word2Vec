@@ -25,7 +25,7 @@
 ![DeBERTa Unsloth 结果](https://github.com/FujunhaoFc/Word2Vec/blob/main/images/deberta_xxlarge_unsloth.png)
 - **测试准确率**: 0.93408
 - **训练方式**: Unsloth 框架优化微调
-- **硬件**: Kaggle GPU
+- **硬件**: RTX 4090D
 
 #### 3. BERT
 ![BERT 结果](https://github.com/FujunhaoFc/Word2Vec/blob/main/images/bert.png)
