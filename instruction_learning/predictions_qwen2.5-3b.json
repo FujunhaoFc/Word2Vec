@@ -1,0 +1,269 @@
+{
+  "model": "qwen2.5-3b",
+  "model_path": "Qwen/Qwen2.5-3B-Instruct",
+  "template": "alpaca",
+  "n_samples": 150,
+  "accuracy": 0.9333333333333333,
+  "inference_time": 71.85831809043884,
+  "failed_samples": [],
+  "confusion_matrix": [
+    [
+      74,
+      1
+    ],
+    [
+      9,
+      66
+    ]
+  ],
+  "predictions_summary": {
+    "correct": 140,
+    "total": 150,
+    "negative_pred": 83,
+    "positive_pred": 67,
+    "negative_true": 75,
+    "positive_true": 75
+  },
+  "sample_predictions": [
+    {
+      "index": 0,
+      "text": "it 's a charming and often affecting journey . ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses that the movie is \"charming\" and \"often affecting,\" which are positive descri",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "text": "unflinchingly bleak and desperate ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review describes the movie as \"unflinchingly bleak and desperate,\" which conveys a very negat",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "text": "allows us to hope that nolan is poised to embark a major career as a commercial yet inventive filmma",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses a positive sentiment towards Christopher Nolan's potential as a filmmaker, in",
+      "correct": true
+    },
+    {
+      "index": 3,
+      "text": "the acting , costumes , music , cinematography and sound are all astounding given the production 's ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review highlights multiple aspects of the film positively, praising the acting, costumes, musi",
+      "correct": true
+    },
+    {
+      "index": 4,
+      "text": "it 's slow -- very , very slow . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses a strong negative sentiment towards the movie's pacing, describing it as \"ve",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "text": "although laced with humor and a few fanciful touches , the film is a refreshingly serious look at yo",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses a positive sentiment towards the film, praising it for being \"refreshingly se",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "text": "a sometimes tedious film . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review describes the film as \"sometimes tedious,\" which indicates a negative sentiment. There",
+      "correct": true
+    },
+    {
+      "index": 7,
+      "text": "or doing last year 's taxes with your ex-wife . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review provided seems to be using a very informal and negative comparison, suggesting that wa",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "text": "you do n't have to know about music to appreciate the film 's easygoing blend of comedy and romance ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review suggests that understanding music isn't necessary to enjoy the film's combination of co",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "text": "in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , f",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses strong dissatisfaction with the movie \"Formula 51,\" describing it as slow, u",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "text": "the mesmerizing performances of the leads keep the film grounded and keep the audience riveted . ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses positive sentiments towards the performances in the film, describing them as ",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "text": "it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene lev",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses disappointment and criticism towards the film, pointing out that it squander",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "text": "... the film suffers from a lack of humor ( something needed to balance out the violence ) ... ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses disappointment and criticism towards the film, specifically mentioning that ",
+      "correct": true
+    },
+    {
+      "index": 13,
+      "text": "we root for ( clara and paul ) , even like them , though perhaps it 's an emotion closer to pity . ",
+      "true_label": 1,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses a somewhat negative sentiment towards the characters Clara and Paul, indicat",
+      "correct": false
+    },
+    {
+      "index": 14,
+      "text": "even horror fans will most likely not find what they 're seeking with trouble every day ; the movie ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses disappointment and dissatisfaction, indicating that even horror fans won't f",
+      "correct": true
+    },
+    {
+      "index": 15,
+      "text": "a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and hig",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses admiration for the film, praising it as \"gorgeous\" and \"high-spirited,\" and h",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "text": "the emotions are raw and will strike a nerve with anyone who 's ever had family trauma . ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses that the movie's emotions are raw and impactful, suggesting it resonates deep",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "text": "audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses admiration for Audrey Tatou's performance, describing it as \"outrageous charm",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "text": "... the movie is just a plain old monster . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses a very negative sentiment towards the movie, describing it as \"just a plain ",
+      "correct": true
+    },
+    {
+      "index": 19,
+      "text": "in its best moments , resembles a bad high school production of grease , without benefit of song . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review describes the movie in unfavorable terms, comparing it to a \"bad high school productio",
+      "correct": true
+    },
+    {
+      "index": 20,
+      "text": "pumpkin takes an admirable look at the hypocrisy of political correctness , but it does so with such",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses mixed feelings, acknowledging the film's attempt to address a serious topic ",
+      "correct": true
+    },
+    {
+      "index": 21,
+      "text": "the iditarod lasts for days - this just felt like it did . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review doesn't provide enough context to determine if the movie was good or bad, but based on",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "text": "holden caulfield did it better . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review \"holden caulfield did it better\" expresses disappointment or criticism, suggesting tha",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "text": "a delectable and intriguing thriller filled with surprises , read my lips is an original . ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses positive sentiments towards the movie, describing it as \"delectable\" and \"int",
+      "correct": true
+    },
+    {
+      "index": 24,
+      "text": "seldom has a movie so closely matched the spirit of a man and his work . ",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review expresses admiration for how well the movie captured the essence of a person and their ",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "text": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses dissatisfaction with the movie's humor, describing it as \"stale parody\" and ",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "text": "the action switches between past and present , but the material link is too tenuous to anchor the em",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses disappointment and criticism towards the film's narrative structure, indicat",
+      "correct": true
+    },
+    {
+      "index": 27,
+      "text": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significan",
+      "true_label": 1,
+      "pred_label": 1,
+      "raw_output": "1\nThe review describes the movie as \"an offbeat treat\" which indicates a positive view, and it menti",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "text": "it 's a cookie-cutter movie , a cut-and-paste job . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses a negative sentiment towards the movie, describing it as \"cookie-cutter\" and",
+      "correct": true
+    },
+    {
+      "index": 29,
+      "text": "i had to look away - this was god awful . ",
+      "true_label": 0,
+      "pred_label": 0,
+      "raw_output": "-1\nThe review expresses strong negative sentiment, using words like \"god awful\" which indicates a ve",
+      "correct": true
+    }
+  ]
+}

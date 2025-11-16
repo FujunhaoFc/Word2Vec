@@ -1,0 +1,20 @@
+{
+  "task": "SST-2 Sentiment Analysis using Instruction Learning",
+  "model": "qwen2.5-3b",
+  "test_samples": 150,
+  "result": {
+    "accuracy": 0.9333333333333333,
+    "n_samples": 150,
+    "inference_time": 71.85831809043884,
+    "confusion_matrix": [
+      [
+        74,
+        1
+      ],
+      [
+        9,
+        66
+      ]
+    ]
+  }
+}
